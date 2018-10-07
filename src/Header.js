@@ -1,11 +1,11 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
-const Header = () => {
-    return (
-        <div>
+const Header = () => (
+    <header>
+        <NavLink to="/" exact={true}>
             <h1>Busy Days</h1>
-        </div>
-    )
-}
-
+        </NavLink>
+    </header>
+);
 export default Header
