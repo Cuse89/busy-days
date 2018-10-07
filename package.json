@@ -1,0 +1,19 @@
+{
+  "name": "busy-days",
+  "version": "1.0.0",
+  "description": "Checklist app for those busy days",
+  "main": "index.js",
+  "author": "Marcus Guthrie",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html --log-level 3 --open"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  }
+}
